@@ -11,5 +11,5 @@ puts rainbow_colors = 2 ['light_yellow']
 end
 
 def add_colors
-puts rainbow_color += 'green'
-put rainbow_color += 'blue'
+rainbow_color.push 'green'
+rainbow_color.push 'blue'
